@@ -1,0 +1,67 @@
+﻿@using Hirportal.Models;
+
+@model IList<Article>
+
+    @if ((Model == null || !Model.Any()) && ViewBag.MainArticle == null)
+    {
+        <div class="contentText">Jelenleg még nincsennek cikkek.</div>
+    }
+    else
+    {
+        <table class="articles">
+            <tr>
+                <td>
+                    @if (ViewBag.MainArticle != null)
+                {
+                <table class="MainArticle">
+
+                    <tr>
+                        <td>
+                            <a asp-controller="Home" asp-action="Details" asp-route-articleId="@ViewBag.MainArticle.Id">@ViewBag.MainArticle.Title</a>
+                        </td>
+                    </tr>
+                    @if (ViewBag.MainArticle.Pictures != null && ViewBag.MainArticle.Pictures.Count > 0)
+    {
+                <tr>
+                    <td>
+
+                        <img class="Smallimage" src="@Url.Action("ImageForArticle", new { ArticleId = ViewBag.MainArticle.Id })" />
+
+                    </td>
+                </tr>
+}
+                    <tr>
+                        <td>
+                            <p>@ViewBag.MainArticle.Summary</p>
+                        </td>
+                    </tr>
+                </table>
+}
+                    
+                </td>
+            </tr> 
+
+            @for (Int32 i = 0; i < Model.Count; i++)
+    {
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <a asp-controller="Home" asp-action="Details" asp-route-articleId="@Model[i].Id">@Model[i].Title</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>@Model[i].Summary</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+}
+
+
+        </table>
+}

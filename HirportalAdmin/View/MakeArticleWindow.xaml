@@ -1,0 +1,68 @@
+﻿<Window x:Class="HirportalAdmin.View.MakeArticleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:HirportalAdmin.ViewModel.Converters"
+        mc:Ignorable="d"
+        Title="Hírportál - Cikk szerkesztése" Height="340" Width="600">
+    <Window.Resources>
+        <viewModel:ArticleImageConverter x:Key="articleImageConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="35" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Text="Cím:" Margin="5" />
+            <TextBox Width="150" Text="{Binding EditedArticle.Title}" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Text="Összegzés:" Margin="5" />
+            <TextBox Width="200" Text="{Binding EditedArticle.Summary}" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <TextBlock Text="Tartalom:" Margin="5" />
+            <TextBox Width="300" Text="{Binding EditedArticle.Content}" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <TextBlock Text="Főcikk: " Margin="5" />
+            <CheckBox  IsChecked="{Binding EditedArticle.IsMainArticle}" Margin="5"/>
+        </StackPanel>
+        <ListBox Grid.Row="4" Grid.ColumnSpan="2" Name="imageListBox" ItemsSource="{Binding EditedArticle.Images}" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+            <!-- az épülethez tartozó képeket egy listba helyezzük, amely vízszintesen görgethető -->
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel IsItemsHost="True" />
+                    <!-- megadjuk, hogy az elemeket víszintesen helyezze el -->
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Image Height="100" Width="Auto" Source="{Binding Image, Converter={StaticResource articleImageConverter}}" />
+                    <!-- képmegjelenítőt használunk konverzióval -->
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Grid Grid.Row="5" Grid.ColumnSpan="2">
+            <Button Content="Új kép hozzáadása" Margin="6,5,0,5" Command="{Binding CreateImageCommand}" CommandParameter="{Binding  EditedArticle}" HorizontalAlignment="Left" Width="120" IsEnabled="{Binding IsLoaded}" />
+            <Button Content="Kijelölt kép törlése" Margin="0,5,6,5" Command="{Binding DeleteImageCommand}" CommandParameter="{Binding ElementName=imageListBox, Path=SelectedItem}" HorizontalAlignment="Right" Width="120" IsEnabled="{Binding IsLoaded}" />
+        </Grid>
+        <StackPanel Grid.Row="6" Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+            <Button Content="Mentés" Margin="6,5,0,5" Command="{Binding SaveChangesCommand}" Width="100" />
+            <Button Content="Mégse" Margin="5,5,6,5" Command="{Binding CancelChangesCommand}" Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>

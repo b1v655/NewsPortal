@@ -1,0 +1,30 @@
+﻿@model Article
+@{
+    ViewData["Title"] = "Images";
+}
+<h2>Képek</h2>
+
+
+    <img class="Bigimage" src="@Url.Action("NthImageForArticle", new {ArticleId = Model.Id,n=ViewBag.CurrentImage})" />
+
+
+<table>
+    <tr>
+        <td>
+            @if (ViewBag.CurrentImage > 0)
+            {
+                <a asp-controller="Home" asp-action="Images" asp-route-articleId="@Model.Id" asp-route-current="@ViewBag.Prev">Előző</a>
+            }
+        </td>
+        <td>
+            @if (ViewBag.CurrentImage < Model.Pictures.Count-1)
+             {
+               <a asp-controller="Home" asp-action="Images" asp-route-articleId="@Model.Id" asp-route-current="@ViewBag.Next">Következő</a>
+             }
+        </td>
+  <tr>
+    <td>
+        <a asp-controller="Home" asp-action="Details" asp-route-articleId="@Model.Id">Vissza</a>
+    </td>
+  </tr>
+</table>

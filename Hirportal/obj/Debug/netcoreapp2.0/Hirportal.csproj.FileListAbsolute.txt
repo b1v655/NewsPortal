@@ -1,0 +1,30 @@
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.deps.json
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.runtimeconfig.json
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.runtimeconfig.dev.json
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.dll
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.pdb
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.dll
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.pdb
+C:\Users\hormi\Desktop\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.dll.config
+C:\Users\hormi\Desktop\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csprojAssemblyReference.cache
+C:\Users\hormi\Desktop\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.CoreCompileInputs.cache
+C:\Users\hormi\Desktop\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.AssemblyInfoInputs.cache
+C:\Users\hormi\Desktop\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.AssemblyInfo.cs
+C:\Users\hormi\Desktop\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.CopyComplete
+C:\Users\hormi\Desktop\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.dll
+C:\Users\hormi\Desktop\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.pdb
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.deps.json
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.runtimeconfig.json
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.runtimeconfig.dev.json
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.dll
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.pdb
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.dll
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.pdb
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.dll.config
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csprojAssemblyReference.cache
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.CoreCompileInputs.cache
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.AssemblyInfoInputs.cache
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.AssemblyInfo.cs
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.CopyComplete
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.dll
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.pdb

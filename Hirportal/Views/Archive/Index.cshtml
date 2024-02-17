@@ -1,0 +1,80 @@
+﻿
+
+
+@model ArchiveViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Archívum</h2>
+<form asp-controller="Archive" asp-action="Index" asp-route-start="0">
+    @* Automatikus védelem XSRF támadás ellen *@
+
+    <table>
+        <tr>
+            <td>
+                Keresés:
+            </td>
+            <td class="failureNotification">
+                <input asp-for="SearchTerm" size="10" />
+                @* szövegbeviteli mezőt generálunk, amelynek megadjuk a méretét is *@
+                <span asp-validation-for="SearchTerm"></span>
+                @* hibaüzenet megjelenítése *@
+            </td>
+            <td>
+                <input type="submit" value="Keresés" class="button" />
+            </td>
+        </tr>
+    </table>
+</form>
+@if (Model.Articles == null || !Model.Articles.Any())
+{
+    <div class="contentText">Jelenleg még nincsennek cikkek.</div>
+}
+else
+{
+    <table class="articles">
+        @for (Int32 i = 0; i < Model.Articles.Count; i++)
+        {
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <a asp-controller="Home" asp-action="Details" asp-route-articleId="@Model.Articles[i].Id">@Model.Articles[i].Title</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>@Model.Articles[i].Summary</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        }
+
+
+    </table>
+}
+<table>
+    <tr>
+        <td>
+            @if (ViewBag.Start >= 20)
+            {
+                <a asp-controller="Archive" asp-action="Index" asp-route-start="@ViewBag.Prev" asp-route-avm=@Model>Előző</a>
+            }
+        </td>
+        <td>
+            @if (ViewBag.Start + 20 <= ViewBag.Size)
+            {
+                <a asp-controller="Archive" asp-action="Index" asp-route-start="@ViewBag.Next" asp-route-avm=@Model>Következő</a>
+            }
+        </td>
+
+    </tr>
+</table>
+
+

@@ -1,0 +1,48 @@
+﻿@using Hirportal.Models;
+@{
+    ViewData["Title"] = "Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <title>A hírportál</title>
+</head>
+<body>
+    <div class="header">
+    <div class="header">
+        <div class="headerText">
+            <h1>
+                A hírportál
+            </h1>
+        </div>
+    </div>
+    <div class="menu">
+       
+      <table>
+          <tr>
+              <td>
+                  <p>Menü: </p>
+              </td>
+              <td>
+                  <a asp-controller="Home" asp-action="Index">Főoldal</a>
+              </td>
+              <td>
+                  <a asp-controller="Archive" asp-action="Index" asp-route-start="0">Archívum</a>
+              </td>
+          </tr>
+      </table>
+    </div>
+    </div>
+        <div class="content">
+            @RenderBody()
+            @* betöltjük a tényleges oldal törzsét *@
+        </div>
+
+    @*RenderSection("Scripts", required: false)*@
+</body>
+</html>
+

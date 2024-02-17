@@ -1,0 +1,24 @@
+﻿@model Article
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>A teljes cikk</h2>
+
+<div >
+
+    <h3>@Model.Title</h3>
+
+    @if (Model.Pictures != null && Model.Pictures.Count > 0)
+    {
+    
+        <a asp-controller="Home" asp-action="Images" asp-route-articleId="@Model.Id" asp-route-current="0">
+            <img class="Smallimage" src="@Url.Action("ImageForArticle", new { ArticleId = Model.Id })" />
+        </a>
+     }
+        
+     <p>@Model.Content</p>
+     <p>@Model.User.Name</p>
+     <p>@Model.Date</p>
+</div>

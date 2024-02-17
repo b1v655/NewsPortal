@@ -1,0 +1,14 @@
+C:\Users\hormi\Desktop\Hirportal\HirportalData\bin\Debug\HirportalData.dll.config
+C:\Users\hormi\Desktop\Hirportal\HirportalData\bin\Debug\HirportalData.dll
+C:\Users\hormi\Desktop\Hirportal\HirportalData\bin\Debug\HirportalData.pdb
+C:\Users\hormi\Desktop\Hirportal\HirportalData\obj\Debug\HirportalData.csprojAssemblyReference.cache
+C:\Users\hormi\Desktop\Hirportal\HirportalData\obj\Debug\HirportalData.csproj.CoreCompileInputs.cache
+C:\Users\hormi\Desktop\Hirportal\HirportalData\obj\Debug\HirportalData.dll
+C:\Users\hormi\Desktop\Hirportal\HirportalData\obj\Debug\HirportalData.pdb
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\bin\Debug\HirportalData.dll.config
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\bin\Debug\HirportalData.dll
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\bin\Debug\HirportalData.pdb
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\HirportalData.csprojAssemblyReference.cache
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\HirportalData.csproj.CoreCompileInputs.cache
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\HirportalData.dll
+C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\HirportalData.pdb
