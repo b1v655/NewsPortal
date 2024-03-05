@@ -12,3 +12,10 @@ C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\Hir
 C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\HirportalData.csproj.CoreCompileInputs.cache
 C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\HirportalData.dll
 C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\HirportalData\obj\Debug\HirportalData.pdb
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\HirportalData\bin\Debug\HirportalData.dll.config
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\HirportalData\bin\Debug\HirportalData.dll
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\HirportalData\bin\Debug\HirportalData.pdb
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\HirportalData\obj\Debug\HirportalData.csproj.AssemblyReference.cache
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\HirportalData\obj\Debug\HirportalData.csproj.CoreCompileInputs.cache
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\HirportalData\obj\Debug\HirportalData.dll
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\HirportalData\obj\Debug\HirportalData.pdb

@@ -33,7 +33,7 @@ namespace HirportalAdmin
 
         private void App_Startup(object sender, StartupEventArgs e)
         {
-            _model = new HirportalModel(new HirportalPresistence("http://localhost:58304/")); // megadjuk a szolgáltatás címét
+            _model = new HirportalModel(new HirportalPresistence("http://localhost:5000/")); // megadjuk a szolgáltatás címét
             _loginViewModel = new LoginViewModel(_model);
             _loginViewModel.ExitApplication += new EventHandler(ViewModel_ExitApplication);
             _loginViewModel.LoginSuccess += new EventHandler(ViewModel_LoginSuccess);
@@ -52,7 +52,7 @@ namespace HirportalAdmin
         private void ViewModel_LoginSuccess(object sender, EventArgs e)
         {
            
-           // _model = new HirportalModel(new HirportalPresistence("http://localhost:58304/")); // megadjuk a szolgáltatás címét
+           // _model = new HirportalModel(new HirportalPresistence("http://localhost:3000/")); // megadjuk a szolgáltatás címét
             _viewModel = new MainViewModel(_model);
             _viewModel.MessageApplication += new EventHandler<MessageEventArgs>(ViewModel_MessageApplication);
             _viewModel.ArticleEditingStarted += new EventHandler(MainViewModel_ArticleEditingStarted);

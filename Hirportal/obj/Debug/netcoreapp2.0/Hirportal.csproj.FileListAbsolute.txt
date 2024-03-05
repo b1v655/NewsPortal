@@ -28,3 +28,24 @@ C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcore
 C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.CopyComplete
 C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.dll
 C:\Users\hormi\Desktop\hatodik félév\WAF\Hirportal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.pdb
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.deps.json
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.runtimeconfig.json
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.runtimeconfig.dev.json
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.dll
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\Hirportal.pdb
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.dll
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.pdb
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\bin\Debug\netcoreapp2.0\HirportalData.dll.config
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.AssemblyReference.cache
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.AssemblyInfoInputs.cache
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.AssemblyInfo.cs
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.CoreCompileInputs.cache
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.sourcelink.json
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.csproj.CopyComplete
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.dll
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.pdb
+C:\Users\milanhorvath\Desktop\alap\kész\NewsPortal\Hirportal\obj\Debug\netcoreapp2.0\Hirportal.genruntimeconfig.cache

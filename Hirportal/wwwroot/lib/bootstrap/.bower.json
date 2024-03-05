@@ -11,7 +11,7 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "http://localhost:3000",
   "license": "MIT",
   "moduleType": "globals",
   "main": [

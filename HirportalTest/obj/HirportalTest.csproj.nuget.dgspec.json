@@ -1,34 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalTest\\HirportalTest.csproj": {}
+    "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalTest\\HirportalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalData\\HirportalData.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalData\\HirportalData.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalData\\HirportalData.csproj",
+        "projectUniqueName": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalData\\HirportalData.csproj",
         "projectName": "HirportalData",
-        "projectPath": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalData\\HirportalData.csproj"
+        "projectPath": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalData\\HirportalData.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
       },
       "frameworks": {
-        "net452": {}
+        "net48": {}
       }
     },
-    "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalTest\\HirportalTest.csproj": {
+    "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalTest\\HirportalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalTest\\HirportalTest.csproj",
+        "projectUniqueName": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalTest\\HirportalTest.csproj",
         "projectName": "HirportalTest",
-        "projectPath": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalTest\\HirportalTest.csproj",
-        "packagesPath": "C:\\Users\\hormi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalTest\\obj\\",
+        "projectPath": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalTest\\HirportalTest.csproj",
+        "packagesPath": "C:\\Users\\milanhorvath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hormi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\milanhorvath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -36,13 +41,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
             "projectReferences": {
-              "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\Hirportal\\Hirportal.csproj": {
-                "projectPath": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\Hirportal\\Hirportal.csproj"
+              "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\Hirportal\\Hirportal.csproj": {
+                "projectPath": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\Hirportal\\Hirportal.csproj"
               }
             }
           }
@@ -55,6 +62,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -80,27 +88,35 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\Hirportal\\Hirportal.csproj": {
+    "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\Hirportal\\Hirportal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\Hirportal\\Hirportal.csproj",
+        "projectUniqueName": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\Hirportal\\Hirportal.csproj",
         "projectName": "Hirportal",
-        "projectPath": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\Hirportal\\Hirportal.csproj",
-        "packagesPath": "C:\\Users\\hormi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\Hirportal\\obj\\",
+        "projectPath": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\Hirportal\\Hirportal.csproj",
+        "packagesPath": "C:\\Users\\milanhorvath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\Hirportal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hormi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\milanhorvath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,13 +124,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
             "projectReferences": {
-              "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalData\\HirportalData.csproj": {
-                "projectPath": "C:\\Users\\hormi\\Desktop\\hatodik félév\\WAF\\Hirportal\\HirportalData\\HirportalData.csproj"
+              "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalData\\HirportalData.csproj": {
+                "projectPath": "C:\\Users\\milanhorvath\\Desktop\\alap\\kész\\NewsPortal\\HirportalData\\HirportalData.csproj"
               }
             }
           }
@@ -127,6 +145,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
           "dependencies": {
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",
@@ -137,6 +156,7 @@
               "version": "[2.0.6, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.0, )",
               "autoReferenced": true
@@ -147,10 +167,17 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

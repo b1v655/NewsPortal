@@ -30,7 +30,7 @@ namespace Hirportal
             services.AddIdentity<User, IdentityRole<int>>()
                 .AddEntityFrameworkStores<HirportalContext>() // EF használata a TravelAgencyContext entitás kontextussal
                 .AddDefaultTokenProviders(); // Alapértelmezett token generátor használata (pl. SecurityStamp-hez)
-
+            services.AddTransient<HirportalService>();
             services.Configure<IdentityOptions>(options =>
             {
                 // Jelszó komplexitására vonatkozó konfiguráció
