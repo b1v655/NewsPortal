@@ -1,7 +1,7 @@
 ﻿Horváth Milán  Webes alkalmazások fejlesztése  1. Beadandó B1V655 
 
 **Feladat:**  
-
+ 
 Készítsünk egy aukciókkal foglakozó online rendszert, ahol különböző tárgyakra licitálhatnak a felhasználók.  
 
 1\. részfeladat: a webes felületet a licitálók használhatják a tárgyak megtekintésére, illetve ajánlattételre.  
